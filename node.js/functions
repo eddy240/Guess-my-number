@@ -1,0 +1,123 @@
+/* array are data structures*/
+function logger() {  /// Functions
+    console.log('oshiri ike i need help')
+}
+logger();
+logger();
+logger();
+
+
+/*function fruitProcessor(apples, oranges) {
+
+    const juice = `juice with ${apples} apples and ${oranges} oranges`;
+    return juice;
+}/*
+const appleJuice = fruitProcessor(10, 6);
+console.log(appleJuice);
+
+const orangesJuice = fruitProcessor(4, 3)
+console.log(orangesJuice)
+console.log(orangesJuice)
+console.log(orangesJuice)
+console.log(orangesJuice)
+console.log(orangesJuice) */
+
+/*function calAge1(birthYear) {
+    const age = 2034 - birthYear;
+    return age;
+}
+
+const age1 = calAge1(1997)
+
+console.log(age1) */
+
+/*function calAge1(birthYear) {
+    return 2037 - birthYear;
+}
+const age1 = calAge1(1997)
+
+
+const calAge2 = function (birthYear) {
+    return 2037 - birthYear;
+}
+const age2 = calAge2(1990)
+
+
+const calAge3 = function (birthYear) {
+    return 2037 - birthYear;
+}
+const age3 = calAge3(1876)
+
+console.log(age1)
+console.log(age2)
+console.log(age3) */
+
+/*function cutfruitspieces(fruit) {
+    return fruit * 4
+}
+
+function fruitProcessor(apples, oranges) {
+    const applesPieces = cutfruitspieces(apples);
+    const orangesPieces = cutfruitspieces(oranges)
+    const juice = `The juice is made up of ${apples} apples and ${oranges} oranges`;
+    return juice
+}
+console.log(fruitProcessor(2, 4)) */
+
+
+const teamDolphins = (44 + 23 + 71) / 3;
+const teamKoalas = (61 + 54 + 41) / 3;
+const avgDolphins = teamDolphins;
+const avgKoalas = teamKoalas;
+
+
+function checkWinner() {
+    if (avgDolphins > avgKoalas) {
+        console.log(`teamDolphins win (${avgDolphins} vs ${avgKoalas})`)
+    } else
+        console.log(`nonw`)
+}
+
+
+checkWinner()
+
+
+function fruitProcessor(apples, mangoes) {
+    console.log(apples, mangoes);
+    const juice = `The juice was produced with ${apples} apples and ${mangoes} mangoes`;
+    return juice;
+}
+const tanJuice = fruitProcessor(10, 5);
+console.log(tanJuice);
+const wasJuice = fruitProcessor(2, 5);
+console.log(wasJuice);
+
+
+function calAge1(birthYear) {
+    return 2096 - birthYear;
+}
+console.log(calAge1(1995))
+
+const calAge2 = function (birthYear) {
+    return 3088 - birthYear
+}
+age = calAge2(2222)
+console.log(age)
+
+function greet() {
+    console.log(`tiyugjg`)
+};
+greet();
+greet();
+
+const speak = function () {
+    console.log(`speak for change`)
+}
+
+speak();
+const calArea = function (radius) {
+    let area = 3.142 * radius * 2;
+    return area;
+}
+const ar = calArea(235)
+console.log(ar)

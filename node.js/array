@@ -1,0 +1,45 @@
+/*const courses = ['Chem', 'Igbo', 'Physics', 'maths']
+console.log(courses[2]); */
+
+
+/*const numbers = [1274, 4757, 76455555, 75665]
+console.log(numbers.length)
+console.log(numbers[numbers.length + 1])
+
+courses[1] = 'bura';
+console.log(courses);
+
+const lastName = 'paul';
+const paul = [lastName, 'Tom', 2012 - 1992, 'lawyer', 'Canada'];
+console.log(paul.length) */
+
+/*function calAge1(birthYear) {
+    const age = 2034 - birthYear;
+    return age;
+}
+const yearrr = [1222, 2000, 1111, 1798, 1923];
+const ages = [calAge1(yearrr[0]), calAge1(yearrr[1]), calAge1(yearrr[2]), calAge1(yearrr[3]), calAge1(yearrr[4])]
+console.log(ages) */
+
+const friends = ['John', 'Emma', 'Paul', 'Tom']
+friends.push('mara') // adding a new string or number to the last
+console.log(friends)
+
+friends.unshift('tara') // adding element to the begining
+console.log(friends);
+
+//friends.pop(); /// removing the last one
+//console.log(friends);
+
+friends.shift(), // removing the ist one
+    console.log(friends);
+console.log(friends);
+
+const jonasArray = [
+    'John',
+    'Mandas',
+    2020 - 1999,
+    ['joybank', 'yootribe', 'frend'],
+    'lawyer'
+]
+console.log(jonasArray[4]);

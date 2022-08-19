@@ -1,0 +1,73 @@
+//loop
+
+/*for (let rep = 1; rep <= 10; rep++) {
+    console.log(`Coming to the gym ${rep}`)
+}*/
+
+const jonas = [
+    'Lohn',
+    'Mike',
+    'Doctor',
+    'london',
+    true
+];
+
+const types = [];
+const yolo = [
+    'good',
+    'detwr',
+    'gets',
+    'hgwfhw',
+    'gdfh',
+    9796,
+    false
+]
+
+for (let i = 0; i < jonas.length; i++) {
+    console.log(jonas[i], typeof jonas[i]);
+
+    types[i] = typeof jonas[i]
+    // or use push
+
+}
+console.log(types);
+
+for (let i = 0; i < yolo.length; i++) {
+    if (typeof yolo[i] !== 'string') continue
+    console.log(yolo[i], typeof yolo[i])
+}
+const years = [1990, 1987, 1976, 1987, 1986];
+const ages = [];
+
+for (let i = 0; i < years.length; i++) {
+    ages.push(2023 - years[i]);
+}
+console.log(ages);
+*for (let study = 1; study < 3; study++) {
+    console.log(`8 hours of study--------- ${study}`);
+    for (let pratice = 1; pratice < 5; pratice++) {
+        console.log(`Taking my online course this period ${pratice}`)
+    }
+}
+
+for (let rep = 0; rep < 5; rep++) {
+    console.log(`going to take a nap ${rep}`)
+}
+
+
+let rep = 1;
+while (rep <= 5) {
+    console.log(`While: come and sleep ${rep}`);
+    rep++;
+}* /
+
+let dice = Math.trunc(Math.random() * 6) + 1
+
+
+while (dice !== 6) {
+    console.log(`Rolled a dice ${dice}`);
+    dice = Math.trunc(Math.random() * 6) + 1;
+    if (dice === 6) {
+        console.log(`loop ended oh`)
+    }
+}

@@ -1,0 +1,40 @@
+/*const johnScore = 25 + 342 + 35;
+const tomScore = 23 + 67 + 56;
+const avgJohn = johnScore;
+const avgTom = avgJohn;
+const final = avgJohn > avgTom ? `John wins` : `Tom wins`;
+
+let final2 = avgJohn < avgJohn ? `John loses` : `Tom loses`;
+
+console.log(final);
+console.log(final2); */
+
+/*const jonas = {
+    fristName: 'Jonas',
+    lastName: 'Brady',
+    job: 'Doctor',
+    location: 'New york',
+    age: 2017 - 1991,
+    friends: ['mike', 'John', 'Michael']
+}
+
+console.log(jonas.fristName + ' ' + `has ` + ` 3 friends, and his best friend is called ` + jonas.friends[2])
+console.log(` ${jonas.fristName} has ${jonas.friends.length} friends, and his best friend is called ${jonas.friends[2]}`) */
+
+const jonas = {
+    fristName: 'Jonas',
+    lastName: 'Brady',
+    job: 'Doctor',
+    location: 'New york',
+    birthYear: 1991,
+    friends: ['mike', 'John', 'Michael'],
+    hasDriversLicense: false,
+    calAge: function (birthYear) {
+        this.age = 2021 - this.birthYear;
+        return this.age;
+    }
+};
+console.log(jonas.calAge())
+console.log(jonas.age)
+
+console.log(`${jonas.fristName} is a ${jonas.calAge()} -years ${jonas.job}, and he has ${jonas.hasDriversLicense ? 'a' : 'no'} driver's license`)nsole.log(`${jonas.fristName} is a ${jonas.calAge()} -years ${jonas.job}, and he has ${jonas.hasDriversLicense ? 'a' : 'no'} driver's license`)
